@@ -1,0 +1,91 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://collections.walkerart.org/oai?verb=Identify
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Wed, 25 Apr 2012 20:59:37 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?verb=Identify
+      Content-Type:
+      - text/html; charset=iso-8859-1
+      X-Pad:
+      - avoid browser bug
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?verb=Identify">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Wed, 25 Apr 2012 20:59:37 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?verb=Identify
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 25 Apr 2012 20:59:37 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=dda2ce3522d066477c72facd32545a91; path=/
+      Last-Modified:
+      - Wed, 25 Apr 2012 20:59:37 GMT
+      Expires:
+      - Wed, 25 Apr 2012 21:59:37 GMT
+      Content-Length:
+      - '730'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-25T20:59:37Z</responseDate><request
+        verb="Identify">test</request><Identify><repositoryName>Walker Art Center
+        Collection Metadata</repositoryName><baseURL>http://prop.walkerart.org:8080/mason/oai/index.html</baseURL><protocolVersion>2.0</protocolVersion><earliestDatestamp>2002-02-15</earliestDatestamp><deletedRecord>persistent</deletedRecord><granularity>YYYY-MM-DD</granularity></Identify></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Wed, 25 Apr 2012 20:59:37 GMT
+recorded_with: VCR 2.1.1

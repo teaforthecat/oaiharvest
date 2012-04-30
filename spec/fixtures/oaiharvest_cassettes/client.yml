@@ -88,4 +88,2082 @@ http_interactions:
 '
     http_version: 
   recorded_at: Wed, 25 Apr 2012 20:59:37 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org/oai?verb=ListSets
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 30 Apr 2012 14:34:47 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?verb=ListSets
+      Content-Type:
+      - text/html; charset=iso-8859-1
+      X-Pad:
+      - avoid browser bug
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?verb=ListSets">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 14:34:47 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?verb=ListSets
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 14:34:47 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=bc6610f73a07bdc2447e792643087f91; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 14:34:48 GMT
+      Expires:
+      - Mon, 30 Apr 2012 15:34:48 GMT
+      Content-Length:
+      - '783'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T14:34:48Z</responseDate><request
+        verb="ListSets">test</request><ListSets><set><setSpec>object</setSpec><setName>object</setName></set><set><setSpec>text</setSpec><setName>text</setName></set><set><setSpec>sound</setSpec><setName>sound</setName></set><set><setSpec>video</setSpec><setName>video</setName></set><set><setSpec>sia</setSpec><setName>sia</setName></set><set><setSpec>artfinder</setSpec><setName>artfinder</setName></set></ListSets></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 14:34:47 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?verb=ListSets
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 14:37:55 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?verb=ListSets
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?verb=ListSets">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 14:37:55 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?verb=Identify
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 14:37:55 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?verb=Identify
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?verb=Identify">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 14:37:55 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?verb=ListIdentifiers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 14:46:42 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?verb=ListIdentifiers
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?verb=ListIdentifiers">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 14:46:42 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?verb=ListIdentifiers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 14:46:42 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=59b4c58506266f9b4a5a3b2bde430faa; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 14:46:43 GMT
+      Expires:
+      - Mon, 30 Apr 2012 15:46:43 GMT
+      Content-Length:
+      - '5079'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T14:46:42Z</responseDate><request
+        verb="ListIdentifiers">test</request><ListIdentifiers><header><identifier>oai:walkerart.org/object/1</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><header><identifier>oai:walkerart.org/object/2</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><header><identifier>oai:walkerart.org/text/1</identifier><datestamp>2002-07-09</datestamp><setSpec>text</setSpec></header><header><identifier>oai:walkerart.org/text/2</identifier><datestamp>2002-07-09</datestamp><setSpec>text</setSpec></header><header><identifier>oai:walkerart.org/sound/7</identifier><datestamp>2003-08-01</datestamp><setSpec>sound</setSpec></header><header><identifier>oai:walkerart.org/sound/8</identifier><datestamp>2003-08-01</datestamp><setSpec>sound</setSpec></header><header><identifier>oai:walkerart.org/sound/7/1</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/2</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/3</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/4</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/5</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/6</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/7</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/8</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/9</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/10</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/11</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/12</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/13</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/14</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/15</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/16</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/17</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/18</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/19</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/20</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/21</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/22</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/23</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/24</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/25</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/26</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/27</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/video/2745</identifier><datestamp>2003-05-30</datestamp><setSpec>video</setSpec></header><header><identifier>oai:walkerart.org/video/2745/2252</identifier><datestamp>2003-06-02</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/video/2745/3193</identifier><datestamp>2003-06-11</datestamp><setSpec>media</setSpec></header><resumptionToken
+        cursor="0">5f0dd4a38e6bb073e9e959288458abb8</resumptionToken></ListIdentifiers></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 14:46:43 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?verb=ListMetadataFormats
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 15:12:26 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?verb=ListMetadataFormats
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?verb=ListMetadataFormats">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 15:12:26 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?verb=ListMetadataFormats
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 15:12:27 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=5fa2a99fdc0a2ce1566c428914e36aad; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 15:12:27 GMT
+      Expires:
+      - Mon, 30 Apr 2012 16:12:27 GMT
+      Content-Length:
+      - '1117'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T15:12:27Z</responseDate><request
+        verb="ListMetadataFormats">test</request><ListMetadataFormats><metadataFormat><metadataPrefix>oai_dc</metadataPrefix><schema>http://www.openarchives.org/OAI/2.0/oai_dc.xsd</schema><metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace></metadataFormat><metadataFormat><metadataPrefix>qdc</metadataPrefix><schema>http://dublincore.org/schemas/xmls/qdc/2003/04/02/qualifieddc.xsd</schema><metadataNamespace>http://purl.org/dc/terms/</metadataNamespace></metadataFormat><metadataFormat><metadataPrefix>cdwalite</metadataPrefix><schema>http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd</schema><metadataNamespace>http://www.getty.edu/CDWA/CDWALite</metadataNamespace></metadataFormat></ListMetadataFormats></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 15:12:27 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 15:36:19 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?verb=ListRecords
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?verb=ListRecords">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 15:36:19 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 15:36:19 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=3e2abd2f5c94fd37fb78ea523de44c47; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 15:36:20 GMT
+      Expires:
+      - Mon, 30 Apr 2012 16:36:20 GMT
+      Content-Length:
+      - '1469'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T15:36:19Z</responseDate><request
+        verb="ListRecords">test</request><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 15:36:19 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?base_uri=collections.walkerart.org:8083/oai&set=objects&verb=ListIdentifiers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:07:44 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&set=objects&verb=ListIdentifiers
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&amp;set=objects&amp;verb=ListIdentifiers">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:07:44 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org:8083/oai&set=objects&verb=ListIdentifiers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:07:45 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=a280e4cddd65ffe77b2c5a03a04e5844; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 16:07:45 GMT
+      Expires:
+      - Mon, 30 Apr 2012 17:07:45 GMT
+      Content-Length:
+      - '744'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet type=\"text/xsl\"
+        href=\"oai2.xsl\"?>\n<OAI-PMH xmlns=\"http://www.openarchives.org/OAI/2.0/\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/
+        http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd\"><responseDate>2012-04-30T16:07:45Z</responseDate><request>test</request><error
+        code=\"badArgument\">Serious internal error: Can't call method \"_get_all_rows\"
+        on an undefined value at /walker/mason/htdocs/collections/oai/listRecords.html
+        line 141.\n\nStack:\n  [/walker/mason/htdocs/collections/oai/listRecords.html:141]\n
+        \ [/walker/mason/htdocs/collections/oai/index.html:7]\n  [/walker/mason/htdocs/collections/autohandler:1]\n</error></OAI-PMH>\n\n"
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:07:45 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?base_uri=collections.walkerart.org:8083/oai&set=objects&verb=ListSets
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:09:23 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&set=objects&verb=ListSets
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&amp;set=objects&amp;verb=ListSets">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:09:23 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org:8083/oai&set=objects&verb=ListSets
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:09:24 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=6e356e8ef888cdadea93e2c4827293b8; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 16:09:24 GMT
+      Expires:
+      - Mon, 30 Apr 2012 17:09:24 GMT
+      Content-Length:
+      - '783'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T16:09:24Z</responseDate><request
+        verb="ListSets">test</request><ListSets><set><setSpec>object</setSpec><setName>object</setName></set><set><setSpec>text</setSpec><setName>text</setName></set><set><setSpec>sound</setSpec><setName>sound</setName></set><set><setSpec>video</setSpec><setName>video</setName></set><set><setSpec>sia</setSpec><setName>sia</setName></set><set><setSpec>artfinder</setSpec><setName>artfinder</setName></set></ListSets></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:09:24 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?base_uri=collections.walkerart.org:8083/oai&metadata_prefix=oai_dc&set=objects&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:09:28 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&set=objects&metadata_prefix=oai_dc&verb=ListRecords
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&amp;set=objects&amp;metadata_prefix=oai_dc&amp;verb=ListRecords">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:09:29 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org:8083/oai&metadata_prefix=oai_dc&set=objects&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:09:29 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=a8c434f3fdf0a8407384f017958e9b1b; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 16:09:29 GMT
+      Expires:
+      - Mon, 30 Apr 2012 17:09:29 GMT
+      Content-Length:
+      - '744'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet type=\"text/xsl\"
+        href=\"oai2.xsl\"?>\n<OAI-PMH xmlns=\"http://www.openarchives.org/OAI/2.0/\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/
+        http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd\"><responseDate>2012-04-30T16:09:29Z</responseDate><request>test</request><error
+        code=\"badArgument\">Serious internal error: Can't call method \"_get_all_rows\"
+        on an undefined value at /walker/mason/htdocs/collections/oai/listRecords.html
+        line 141.\n\nStack:\n  [/walker/mason/htdocs/collections/oai/listRecords.html:141]\n
+        \ [/walker/mason/htdocs/collections/oai/index.html:9]\n  [/walker/mason/htdocs/collections/autohandler:1]\n</error></OAI-PMH>\n\n"
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:09:30 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?base_uri=collections.walkerart.org:8083/oai&set=objects&verb=Identify
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:09:33 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&set=objects&verb=Identify
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&amp;set=objects&amp;verb=Identify">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:09:34 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org:8083/oai&set=objects&verb=Identify
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:09:34 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=b6c3472b3ca6736abbd25608cc2f3641; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 16:09:34 GMT
+      Expires:
+      - Mon, 30 Apr 2012 17:09:34 GMT
+      Content-Length:
+      - '730'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T16:09:34Z</responseDate><request
+        verb="Identify">test</request><Identify><repositoryName>Walker Art Center
+        Collection Metadata</repositoryName><baseURL>http://prop.walkerart.org:8080/mason/oai/index.html</baseURL><protocolVersion>2.0</protocolVersion><earliestDatestamp>2002-02-15</earliestDatestamp><deletedRecord>persistent</deletedRecord><granularity>YYYY-MM-DD</granularity></Identify></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:09:34 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?base_uri=collections.walkerart.org:8083/oai&set=objects&verb=ListMetadataFormats
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:09:37 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&set=objects&verb=ListMetadataFormats
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&amp;set=objects&amp;verb=ListMetadataFormats">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:09:37 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org:8083/oai&set=objects&verb=ListMetadataFormats
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:09:38 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=f28433d1c02a7a62e24e19adb5a32b9a; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 16:09:38 GMT
+      Expires:
+      - Mon, 30 Apr 2012 17:09:38 GMT
+      Content-Length:
+      - '1117'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T16:09:38Z</responseDate><request
+        verb="ListMetadataFormats">test</request><ListMetadataFormats><metadataFormat><metadataPrefix>oai_dc</metadataPrefix><schema>http://www.openarchives.org/OAI/2.0/oai_dc.xsd</schema><metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace></metadataFormat><metadataFormat><metadataPrefix>qdc</metadataPrefix><schema>http://dublincore.org/schemas/xmls/qdc/2003/04/02/qualifieddc.xsd</schema><metadataNamespace>http://purl.org/dc/terms/</metadataNamespace></metadataFormat><metadataFormat><metadataPrefix>cdwalite</metadataPrefix><schema>http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd</schema><metadataNamespace>http://www.getty.edu/CDWA/CDWALite</metadataNamespace></metadataFormat></ListMetadataFormats></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:09:38 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?base_uri=collections.walkerart.org:8083/oai&metadata_prefix=oai_dc&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:38:41 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&metadata_prefix=oai_dc&verb=ListRecords
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&amp;metadata_prefix=oai_dc&amp;verb=ListRecords">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:38:41 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org:8083/oai&metadata_prefix=oai_dc&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:38:41 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=9b68ed8def3579af4588cc15eff4d30d; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 16:38:41 GMT
+      Expires:
+      - Mon, 30 Apr 2012 17:38:41 GMT
+      Content-Length:
+      - '1469'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T16:38:41Z</responseDate><request
+        verb="ListRecords">test</request><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:38:41 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?base_uri=collections.walkerart.org:8083/oai&verb=ListMetadataFormats
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:38:41 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&verb=ListMetadataFormats
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&amp;verb=ListMetadataFormats">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:38:41 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org:8083/oai&verb=ListMetadataFormats
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:38:41 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=e5c19e49e74ab8175275c59d1b8cbd95; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 16:38:41 GMT
+      Expires:
+      - Mon, 30 Apr 2012 17:38:41 GMT
+      Content-Length:
+      - '1117'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T16:38:41Z</responseDate><request
+        verb="ListMetadataFormats">test</request><ListMetadataFormats><metadataFormat><metadataPrefix>oai_dc</metadataPrefix><schema>http://www.openarchives.org/OAI/2.0/oai_dc.xsd</schema><metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace></metadataFormat><metadataFormat><metadataPrefix>qdc</metadataPrefix><schema>http://dublincore.org/schemas/xmls/qdc/2003/04/02/qualifieddc.xsd</schema><metadataNamespace>http://purl.org/dc/terms/</metadataNamespace></metadataFormat><metadataFormat><metadataPrefix>cdwalite</metadataPrefix><schema>http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd</schema><metadataNamespace>http://www.getty.edu/CDWA/CDWALite</metadataNamespace></metadataFormat></ListMetadataFormats></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:38:41 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?base_uri=collections.walkerart.org:8083/oai&verb=ListSets
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:38:42 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&verb=ListSets
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&amp;verb=ListSets">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:38:41 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org:8083/oai&verb=ListSets
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:38:42 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=1432cfce19e4937b7a364a6365d64235; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 16:38:42 GMT
+      Expires:
+      - Mon, 30 Apr 2012 17:38:42 GMT
+      Content-Length:
+      - '783'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T16:38:42Z</responseDate><request
+        verb="ListSets">test</request><ListSets><set><setSpec>object</setSpec><setName>object</setName></set><set><setSpec>text</setSpec><setName>text</setName></set><set><setSpec>sound</setSpec><setName>sound</setName></set><set><setSpec>video</setSpec><setName>video</setName></set><set><setSpec>sia</setSpec><setName>sia</setName></set><set><setSpec>artfinder</setSpec><setName>artfinder</setName></set></ListSets></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:38:41 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?base_uri=collections.walkerart.org:8083/oai&verb=ListIdentifiers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:38:42 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&verb=ListIdentifiers
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&amp;verb=ListIdentifiers">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:38:42 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org:8083/oai&verb=ListIdentifiers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:38:42 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=16a57e9aba40792636978e8ddeb63783; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 16:38:42 GMT
+      Expires:
+      - Mon, 30 Apr 2012 17:38:42 GMT
+      Content-Length:
+      - '5079'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T16:38:42Z</responseDate><request
+        verb="ListIdentifiers">test</request><ListIdentifiers><header><identifier>oai:walkerart.org/object/1</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><header><identifier>oai:walkerart.org/object/2</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><header><identifier>oai:walkerart.org/text/1</identifier><datestamp>2002-07-09</datestamp><setSpec>text</setSpec></header><header><identifier>oai:walkerart.org/text/2</identifier><datestamp>2002-07-09</datestamp><setSpec>text</setSpec></header><header><identifier>oai:walkerart.org/sound/7</identifier><datestamp>2003-08-01</datestamp><setSpec>sound</setSpec></header><header><identifier>oai:walkerart.org/sound/8</identifier><datestamp>2003-08-01</datestamp><setSpec>sound</setSpec></header><header><identifier>oai:walkerart.org/sound/7/1</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/2</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/3</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/4</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/5</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/6</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/7</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/8</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/9</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/10</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/11</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/12</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/13</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/14</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/15</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/16</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/17</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/18</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/19</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/20</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/21</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/22</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/23</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/24</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/25</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/26</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/27</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/video/2745</identifier><datestamp>2003-05-30</datestamp><setSpec>video</setSpec></header><header><identifier>oai:walkerart.org/video/2745/2252</identifier><datestamp>2003-06-02</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/video/2745/3193</identifier><datestamp>2003-06-11</datestamp><setSpec>media</setSpec></header><resumptionToken
+        cursor="0">5f0dd4a38e6bb073e9e959288458abb8</resumptionToken></ListIdentifiers></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:38:42 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?base_uri=collections.walkerart.org:8083/oai&verb=Identify
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:38:45 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&verb=Identify
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org%3A8083%2Foai&amp;verb=Identify">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:38:45 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?base_uri=collections.walkerart.org:8083/oai&verb=Identify
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 16:38:45 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=feb1321e268421d0a86986cd3b9a2248; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 16:38:45 GMT
+      Expires:
+      - Mon, 30 Apr 2012 17:38:45 GMT
+      Content-Length:
+      - '730'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T16:38:45Z</responseDate><request
+        verb="Identify">test</request><Identify><repositoryName>Walker Art Center
+        Collection Metadata</repositoryName><baseURL>http://prop.walkerart.org:8080/mason/oai/index.html</baseURL><protocolVersion>2.0</protocolVersion><earliestDatestamp>2002-02-15</earliestDatestamp><deletedRecord>persistent</deletedRecord><granularity>YYYY-MM-DD</granularity></Identify></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 16:38:45 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?MetadataPrefix=oai_dc&metadata_prefix=oai_dc&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 17:07:48 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?metadata_prefix=oai_dc&MetadataPrefix=oai_dc&verb=ListRecords
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?metadata_prefix=oai_dc&amp;MetadataPrefix=oai_dc&amp;verb=ListRecords">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 17:07:48 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?MetadataPrefix=oai_dc&metadata_prefix=oai_dc&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 17:07:48 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=7b276989791633aed163fb8361989fc7; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 17:07:49 GMT
+      Expires:
+      - Mon, 30 Apr 2012 18:07:49 GMT
+      Content-Length:
+      - '1469'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T17:07:48Z</responseDate><request
+        verb="ListRecords">test</request><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 17:07:49 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?MetadataPrefix=oai_dc&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 17:09:28 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?MetadataPrefix=oai_dc&verb=ListRecords
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?MetadataPrefix=oai_dc&amp;verb=ListRecords">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 17:09:28 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?MetadataPrefix=oai_dc&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 17:09:29 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=08a5fb2899764e64bb6ed42a59a02af3; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 17:09:29 GMT
+      Expires:
+      - Mon, 30 Apr 2012 18:09:29 GMT
+      Content-Length:
+      - '1469'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T17:09:29Z</responseDate><request
+        verb="ListRecords">test</request><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error><error code="cannotDisseminateFormat">The
+        metadata format identified by the value given for the metadataPrefix argument
+        is not supported by the item or by the repository</error></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 17:09:29 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?metadataPrefix=oai_dc&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 17:12:14 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?metadataPrefix=oai_dc&verb=ListRecords
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?metadataPrefix=oai_dc&amp;verb=ListRecords">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 17:12:15 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?metadataPrefix=oai_dc&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 17:12:15 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=409d815681741cce6e6f37cc097b76be; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 17:12:16 GMT
+      Expires:
+      - Mon, 30 Apr 2012 18:12:16 GMT
+      Content-Length:
+      - '37382'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T17:12:15Z</responseDate><request
+        verb="ListRecords">test</request><ListRecords><record><header><identifier>oai:walkerart.org/object/1</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Lyric Suite</dc:title><dc:creator>Robert
+        Motherwell</dc:creator><dc:subject>Drawings</dc:subject><dc:subject>Drawings
+        and Watercolors</dc:subject><dc:description>serial number D65-1613</dc:description><dc:date>1965</dc:date><dc:rights>&#169;
+        Dedalus Foundation/VAGA, New York, NY</dc:rights><dc:type>Drawings</dc:type><dc:type>Drawings
+        and Watercolors</dc:type><dc:identifier>http://collections.walkerart.org/item/object/1</dc:identifier></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/object/2</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Lyric Suite</dc:title><dc:creator>Robert
+        Motherwell</dc:creator><dc:subject>Drawings</dc:subject><dc:subject>Drawings
+        and Watercolors</dc:subject><dc:description>serial number D65-1622</dc:description><dc:date>1965</dc:date><dc:rights></dc:rights><dc:type>Drawings</dc:type><dc:type>Drawings
+        and Watercolors</dc:type><dc:identifier>http://collections.walkerart.org/item/object/2</dc:identifier></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/text/1</identifier><datestamp>2002-07-09</datestamp><setSpec>text</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Diane Ludin</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:creator>Ludin, Diane</dc:creator><dc:source>Walker
+        Art Center Gallery 9, Diane Ludin, April 2001.</dc:source><dc:subject>biography</dc:subject><dc:description>Diane
+        Ludin is an artist and writer. She obsesses over the shifting representations
+        of biotech and informatic labor by playing with the temporal output of these
+        industries as counter cultural reflections. Drowned with aesthetics in her
+        formative years, her output is bound by metaphorical lyricism. She filters
+        unbound social drives and the ideological gaps of power through a radical
+        poetics. Collaborative performances and broadcasts with The Electronic Disturbance
+        Theater, Fakeshop, Ricardo Dominguez, Francesca da Rimini and Prema Murthy.</dc:description><dc:date>April
+        2001</dc:date><dc:type>biography</dc:type><dc:identifier>http://collections.walkerart.org/item/text/1</dc:identifier></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/text/2</identifier><datestamp>2002-07-09</datestamp><setSpec>text</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Wing Young Huie</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:creator>Huie, Wing Young</dc:creator><dc:source>Walker
+        Art Center Gallery 9, Wing Young Huie,  July 2000.</dc:source><dc:subject>biography</dc:subject><dc:description>Wing
+        Young Huie is a Minnesota-born photographer who has received national and
+        international recognition for his work. In 1998/1999, Huie was featured in
+        two major Walker Art Center exhibitions, &lt;i>Unfinished History&lt;/i> and
+        &lt;i>Dialogues: Paul Beatty/Wing Young Huie,&lt;/i> both of which included
+        photographs from &lt;i>Lake Street USA.&lt;/i>&lt;p>Huie has been photographing
+        diverse communities in his homestate for ten years. In 1995, he displayed
+        173 photographs in an outdoor lot in the Frogtown neighborhood of St. Paul.
+        In 1996 the Minnesota Historical Society Press published that exhibition in
+        a critically acclaimed book titled, &lt;i>Frogtown: Photographs and Conversations
+        from a Neighborhood.&lt;/i> It is used in many school classrooms and is required
+        reading for a Hamline University course.&lt;/p>&lt;p>According to former mayor
+        George Latimer, "St. Paul''s Frogtown is unique and historic but is mirrored
+        in neighborhoods all over America. By listening closely to the citizens of
+        Frogtown and searching through the unblinking lens of his camera, Wing Young
+        Huie gives us all hope."&lt;/p>&lt;p>The new Juvenile Detention Center in
+        downtown St. Paul will display many of Huie''s photographs permanently. "One
+        problem we see time and again with our kids is a disconnect between themselves
+        and their families and communities. These photos are powerful reminders of
+        how important family and community are. They will provide stepping off points
+        for conversations and discussions with the youth held there." (Minneapolis
+        Star Tribune, 3/10/00.)&lt;/p></dc:description><dc:date>July 2000</dc:date><dc:type>biography</dc:type><dc:identifier>http://collections.walkerart.org/item/text/2</dc:identifier></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/7</identifier><datestamp>2003-08-01</datestamp><setSpec>sound</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Richard Stankiewicz
+        and Robert Indiana: Interview, 10/21/63</dc:title><dc:contributor>Walker Art
+        Center Collection</dc:contributor><dc:creator>Walker Art Center (director)</dc:creator><dc:creator>Walker
+        Art Center (executive producer)</dc:creator><dc:creator>Walker Art Center
+        (production company)</dc:creator><dc:subject>Exhibitions: Stankiewicz and
+        Indiana</dc:subject><dc:description></dc:description><dc:date>1963</dc:date><dc:type>audio</dc:type><dc:identifier>http://collections.walkerart.org/item/archive/7</dc:identifier><dc:identifier>63.05</dc:identifier><dc:relation>oai:walkerart.org/sound/7/1</dc:relation><dc:relation>oai:walkerart.org/sound/7/2</dc:relation><dc:relation>oai:walkerart.org/sound/7/3</dc:relation><dc:relation>oai:walkerart.org/sound/7/4</dc:relation><dc:relation>oai:walkerart.org/sound/7/5</dc:relation><dc:relation>oai:walkerart.org/sound/7/6</dc:relation><dc:relation>oai:walkerart.org/sound/7/7</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8</identifier><datestamp>2003-08-01</datestamp><setSpec>sound</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Stuart Davis: interview</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:creator>Walker Art Center (director)</dc:creator><dc:creator>Walker
+        Art Center (executive producer)</dc:creator><dc:creator>Walker Art Center
+        (production company)</dc:creator><dc:subject>Exhibitions: Paintings by Stuart  Davis</dc:subject><dc:description>Stuart
+        Davis interviewed by senior curator Sidney Simon, Walker Art Center for the
+        1957 exhibition.</dc:description><dc:date>1957</dc:date><dc:type>audio</dc:type><dc:identifier>http://collections.walkerart.org/item/archive/8</dc:identifier><dc:identifier>57.03
+        , 57.04 ,  57.05</dc:identifier><dc:relation>oai:walkerart.org/sound/8/8</dc:relation><dc:relation>oai:walkerart.org/sound/8/9</dc:relation><dc:relation>oai:walkerart.org/sound/8/10</dc:relation><dc:relation>oai:walkerart.org/sound/8/11</dc:relation><dc:relation>oai:walkerart.org/sound/8/12</dc:relation><dc:relation>oai:walkerart.org/sound/8/13</dc:relation><dc:relation>oai:walkerart.org/sound/8/14</dc:relation><dc:relation>oai:walkerart.org/sound/8/15</dc:relation><dc:relation>oai:walkerart.org/sound/8/16</dc:relation><dc:relation>oai:walkerart.org/sound/8/17</dc:relation><dc:relation>oai:walkerart.org/sound/8/18</dc:relation><dc:relation>oai:walkerart.org/sound/8/19</dc:relation><dc:relation>oai:walkerart.org/sound/8/20</dc:relation><dc:relation>oai:walkerart.org/sound/8/21</dc:relation><dc:relation>oai:walkerart.org/sound/8/22</dc:relation><dc:relation>oai:walkerart.org/sound/8/23</dc:relation><dc:relation>oai:walkerart.org/sound/8/24</dc:relation><dc:relation>oai:walkerart.org/sound/8/25</dc:relation><dc:relation>oai:walkerart.org/sound/8/26</dc:relation><dc:relation>oai:walkerart.org/sound/8/27</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/7/1</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Track 1</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Introduction by Jan
+        Van der Marck, senior curator for the Walker Art Center.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/stankiewicz63_05_t1.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/7</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/7/2</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Track 2</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Richard Stankiewicz:
+        role of humor in early versus recent work, "constructed communication"; wall
+        pieces versus standing pieces; the role of light and shadow  on constructed
+        wall pieces.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/stankiewicz63_05_t2.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/7</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/7/3</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Track 3</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Robert Indiana: Marine
+        works (1959); painting and sculpture; using stolen/found materials for sculpture.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/stankiewicz63_05_t3.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/7</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/7/4</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Track 4</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Social Realism and American;
+        Demuth''s "Fire Engine Five" inspired by the William Carlos Williams 5 line
+        poem.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/stankiewicz63_05_t4.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/7</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/7/5</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Track 5</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Audience Questions:
+        to Indiana influence of Stuart Davis?; to Indiana: Use of text; to Stankiewicz:
+        Kinetic Sculpture.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/stankiewicz63_05_t5.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/7</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/7/6</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Track 6</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Audience Questions:
+        to Stankiewicz: sketching before construction?; to Stankiewicz: use of found
+        materials; to Indiana: EAT and DIE paintings.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/stankiewicz63_05_t6.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/7</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/7/7</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Track 7</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Indiana: Pop Art and
+        Abstract Expressionism.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/stankiewicz63_05_t7.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/7</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/8</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 1, Track 1</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Davis during World War
+        II; first retrospective at Museum of Modern Art; post war stimulus of art
+        world.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_03_t1.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/9</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 1, Track 2</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Paris and New York;
+        Davis not interested in American Scene, Social Content or any of the other
+        schools of art.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_03_t2.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/10</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 1, Track 3</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Guggenheim Fellowship
+        1950; visiting artist at Yale University 1951; teaching at the Art Students
+        League 1931 and later at the New School.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_03_t3.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/11</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 1, Track 4</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Davis'' writings and
+        articles; basic philosophy of art--"The Eight"; Davis'' early education with
+        Henri; Abstraction in Art.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_03_t4.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/12</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 1, Track 5</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Not associated with
+        Abstract Artists Group in New York; Universal and Objective nature in Art;
+        Emotion in Art.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_03_t5.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/13</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 1, Track 6</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Van Gogh: Emotion and
+        Technique; Identification of feelings with brush strokes; Seurat.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_03_t6.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/14</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 1, Track 7</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Davis'' attitude toward
+        abstraction as it relates to Cubism; Art in the Information Age, 1950s.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_03_t7.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/15</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 2, Track 1</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Question: explain color?;
+        watches boxing while painting; impact of life events on Art.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_04_t1.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/16</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 2, Track 2</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Question: When does
+        color enter into the creative process?</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_04_t2.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/17</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 2, Track 3</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Question: Analysis and
+        synthesis of painting?; developing a composition from the simple to the complex;
+        painting technique.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_04_t3.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/18</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 2, Track 4</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Egg Beater Series; moving
+        toward abstraction; Davis no longer paints outdoors; Question: Is there less
+        of a landscape feeling to new work?</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_04_t4.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/19</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 2, Track 5</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Art as the basis for
+        other Art; content in Art.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_04_t5.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/20</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 2, Track 6</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>European versus American
+        Art; views on Abstract Expressionism; sense of community among young American
+        painters; precisionism in art; importance of Leger to Modern Art.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_04_t6.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/21</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 2, Track 7</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Love of Jazz music and
+        its importance to Davis'' work.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_04_t7.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/22</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 3, Track 1</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>The PAD series; borrows
+        from the language of jazz.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_05_t1.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/23</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 3, Track 2</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>"Mellow Pad"; The Max
+        Series; Question: Where do the titles for paintings come from?</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_05_t2.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/24</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 3, Track 3</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>Discussion of "Little
+        Giant Still Life" an art critic accused Davis of concealing dirty words in
+        this painting.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_05_t3.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/25</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 3, Track 4</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>"Triadic" title refers
+        to masts of sailing ships; prefers to do large paintings but often works out
+        ideas on smaller paintings; "Feasible 1" and "Feasible 2"; "LeRoy''s Shift";
+        planes of color.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_05_t4.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/26</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 3, Track 5</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>"Medium Still Life";
+        "Seme"</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_05_t5.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/sound/8/27</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Part 3, Track 6</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description>"Tournous" watched boxing
+        matches with Edgar Varese who was born in Tournous, France; "Colonial Cubism"
+        a satirical title; "Underpass"; Titles always come after the painting is done.</dc:description><dc:format>audio/x-pn-realaudio</dc:format><dc:rights></dc:rights><dc:type>audio</dc:type><dc:identifier>http://www.walkerart.org/realpointers/audio/davis57_05_t6.ram</dc:identifier><dc:relation>oai:walkerart.org/sound/8</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/video/2745</identifier><datestamp>2003-05-30</datestamp><setSpec>video</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Logic of the Birds</dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:subject></dc:subject><dc:description></dc:description><dc:date>2002</dc:date><dc:rights>Walker
+        Art Center Archives: Sound and Moving Image Collections</dc:rights><dc:type>video</dc:type><dc:identifier>http://collections.walkerart.org/item/archive/2745</dc:identifier><dc:identifier></dc:identifier><dc:relation>oai:walkerart.org/video/2745/2252</dc:relation><dc:relation>oai:walkerart.org/video/2745/3193</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/video/2745/2252</identifier><datestamp>2003-06-02</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title></dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description></dc:description><dc:format>image/jpeg</dc:format><dc:rights></dc:rights><dc:type>Digital
+        Image</dc:type><dc:identifier>http://www.walkerart.org/walker_archives/teletable/images/T_Neshat_O_01e.jpg</dc:identifier><dc:relation>oai:walkerart.org/video/2745</dc:relation></oai_dc:dc></metadata></record><record><header><identifier>oai:walkerart.org/video/2745/3193</identifier><datestamp>2003-06-11</datestamp><setSpec>media</setSpec></header><metadata><oai_dc:dc
+        xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/
+        http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title></dc:title><dc:contributor>Walker
+        Art Center Collection</dc:contributor><dc:description></dc:description><dc:format>video/x-shockwave-flash</dc:format><dc:rights></dc:rights><dc:type>video</dc:type><dc:identifier>http://www.walkerart.org/walker_archives/teletable/video/02_v102b_T_Neshat_O_01.swf</dc:identifier><dc:relation>oai:walkerart.org/video/2745</dc:relation></oai_dc:dc></metadata></record><resumptionToken
+        cursor="0">f6becf107efebfee0a71087c3df17f76</resumptionToken></ListRecords></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 17:12:18 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?metadataPrefix=oai_dc&verb=Identify
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 17:32:58 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?metadataPrefix=oai_dc&verb=Identify
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?metadataPrefix=oai_dc&amp;verb=Identify">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 17:32:58 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?metadataPrefix=oai_dc&verb=Identify
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 17:32:58 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=be310a0955b39409da631130a6b42140; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 17:32:58 GMT
+      Expires:
+      - Mon, 30 Apr 2012 18:32:58 GMT
+      Content-Length:
+      - '730'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T17:32:58Z</responseDate><request
+        verb="Identify">test</request><Identify><repositoryName>Walker Art Center
+        Collection Metadata</repositoryName><baseURL>http://prop.walkerart.org:8080/mason/oai/index.html</baseURL><protocolVersion>2.0</protocolVersion><earliestDatestamp>2002-02-15</earliestDatestamp><deletedRecord>persistent</deletedRecord><granularity>YYYY-MM-DD</granularity></Identify></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 17:32:58 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?metadataPrefix=oai_dc&verb=ListIdentifiers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 17:33:28 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?metadataPrefix=oai_dc&verb=ListIdentifiers
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?metadataPrefix=oai_dc&amp;verb=ListIdentifiers">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 17:33:28 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?metadataPrefix=oai_dc&verb=ListIdentifiers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 17:33:28 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=92098ebe21cd4c9ae625963ec7376716; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 17:33:28 GMT
+      Expires:
+      - Mon, 30 Apr 2012 18:33:28 GMT
+      Content-Length:
+      - '5079'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T17:33:28Z</responseDate><request
+        verb="ListIdentifiers">test</request><ListIdentifiers><header><identifier>oai:walkerart.org/object/1</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><header><identifier>oai:walkerart.org/object/2</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><header><identifier>oai:walkerart.org/text/1</identifier><datestamp>2002-07-09</datestamp><setSpec>text</setSpec></header><header><identifier>oai:walkerart.org/text/2</identifier><datestamp>2002-07-09</datestamp><setSpec>text</setSpec></header><header><identifier>oai:walkerart.org/sound/7</identifier><datestamp>2003-08-01</datestamp><setSpec>sound</setSpec></header><header><identifier>oai:walkerart.org/sound/8</identifier><datestamp>2003-08-01</datestamp><setSpec>sound</setSpec></header><header><identifier>oai:walkerart.org/sound/7/1</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/2</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/3</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/4</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/5</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/6</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/7/7</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/8</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/9</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/10</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/11</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/12</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/13</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/14</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/15</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/16</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/17</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/18</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/19</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/20</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/21</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/22</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/23</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/24</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/25</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/26</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/sound/8/27</identifier><datestamp>2002-02-15</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/video/2745</identifier><datestamp>2003-05-30</datestamp><setSpec>video</setSpec></header><header><identifier>oai:walkerart.org/video/2745/2252</identifier><datestamp>2003-06-02</datestamp><setSpec>media</setSpec></header><header><identifier>oai:walkerart.org/video/2745/3193</identifier><datestamp>2003-06-11</datestamp><setSpec>media</setSpec></header><resumptionToken
+        cursor="0">6dcea2306378d8457acc243fdf9e8a1b</resumptionToken></ListIdentifiers></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 17:33:28 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?metadataPrefix=oai_dc&verb=ListSets
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 17:33:29 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?metadataPrefix=oai_dc&verb=ListSets
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?metadataPrefix=oai_dc&amp;verb=ListSets">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 17:33:28 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?metadataPrefix=oai_dc&verb=ListSets
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Apr 2012 17:33:29 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=f4b3088605578d990496a4a7874cdd90; path=/
+      Last-Modified:
+      - Mon, 30 Apr 2012 17:33:29 GMT
+      Expires:
+      - Mon, 30 Apr 2012 18:33:29 GMT
+      Content-Length:
+      - '783'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-04-30T17:33:29Z</responseDate><request
+        verb="ListSets">test</request><ListSets><set><setSpec>object</setSpec><setName>object</setName></set><set><setSpec>text</setSpec><setName>text</setName></set><set><setSpec>sound</setSpec><setName>sound</setName></set><set><setSpec>video</setSpec><setName>video</setName></set><set><setSpec>sia</setSpec><setName>sia</setName></set><set><setSpec>artfinder</setSpec><setName>artfinder</setName></set></ListSets></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 17:33:28 GMT
 recorded_with: VCR 2.1.1

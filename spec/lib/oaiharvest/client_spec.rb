@@ -23,15 +23,21 @@ describe Oaiharvest::Client do
       VCR.eject_cassette
     end
 
-    
-
     it "has a harvest method" do 
       client.must_respond_to :harvest
     end
 
-    it "it identifies a target" do 
-      client.identify.must_be_instance_of Hash
+    it "it identifies a target" do
+      identified = client.identify
+      identified.must_be_instance_of Hash
+      identified[:repository_name].must_equal "Walker Art Center Collection Metadata"
+      identified[:base_url].must_equal "http://prop.walkerart.org:8080/mason/oai/index.html"
+      identified[:protocol_version].must_equal "2.0"
+      identified[:earliest_datestamp].must_equal "2002-02-15"
+      identified[:deleted_record].must_equal "persistent"
+      identified[:granularity].must_equal "YYYY-MM-DD"
+      
     end
-    
   end
+
 end

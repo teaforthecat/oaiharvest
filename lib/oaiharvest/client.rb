@@ -47,7 +47,12 @@ module Oaiharvest
 
     def get_list_records opts
       response = verb("ListRecords", opts)
-      extract_records response.body
+      warning = response.parsed_response.fetch("OAI_PMH",[])
+      if warning.include?('error')
+        warning.fetch('error')
+      else
+        extract_records response.body
+      end
     end
 
     def extract_records body_xml

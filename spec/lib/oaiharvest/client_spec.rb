@@ -31,7 +31,20 @@ describe Oaiharvest::Client do
       client.make_query({:metadata_prefix=>"oai_dc"}).must_equal({'metadataPrefix' => "oai_dc"})
     end
 
-    it "ListRecords: returns records with headers and metadata" do 
+    it "reports an error" do 
+      listed_records = client.list_records( {:metadata_prefix => "cdwalite"} )
+      listed_records[0].must_match /.*results in an empty list.*/
+    end
+
+    it "ListRecords: with cdwalite" do
+      listed_records = client.list_records( {:metadata_prefix => "cdwalite", :set => 'object'} )
+      listed_records[0].metadata["title"].must_equal("Lyric Suite")
+      # record info is to deep;
+      # this information is in the header anyway
+      listed_records[0].metadata["record"].must_be_nil
+    end
+
+    it "ListRecords: with dublin core" do 
       listed_records = client.list_records( {:metadata_prefix => "oai_dc"} )
       listed_records[0].must_respond_to :header
       listed_records[0].must_respond_to :metadata

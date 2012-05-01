@@ -2166,4 +2166,730 @@ http_interactions:
 '
     http_version: 
   recorded_at: Mon, 30 Apr 2012 17:33:28 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?metadataPrefix=cdwalite&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Tue, 01 May 2012 13:19:44 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?metadataPrefix=cdwalite&verb=ListRecords
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?metadataPrefix=cdwalite&amp;verb=ListRecords">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Tue, 01 May 2012 13:19:44 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?metadataPrefix=cdwalite&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 01 May 2012 13:19:44 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=94ac2953b0569647f99fd37c9fc42cb6; path=/
+      Last-Modified:
+      - Tue, 01 May 2012 13:19:44 GMT
+      Expires:
+      - Tue, 01 May 2012 14:19:44 GMT
+      Content-Length:
+      - '1137'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-05-01T13:19:44Z</responseDate><request
+        verb="ListRecords">test</request><error code="noRecordsMatch">The combination
+        of the values of the from, until, set, and metadataPrefix arguments results
+        in an empty list.</error><error code="noRecordsMatch">The combination of the
+        values of the from, until, set, and metadataPrefix arguments results in an
+        empty list.</error><error code="noRecordsMatch">The combination of the values
+        of the from, until, set, and metadataPrefix arguments results in an empty
+        list.</error><error code="noRecordsMatch">The combination of the values of
+        the from, until, set, and metadataPrefix arguments results in an empty list.</error><error
+        code="noRecordsMatch">The combination of the values of the from, until, set,
+        and metadataPrefix arguments results in an empty list.</error></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Tue, 01 May 2012 13:19:44 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai?metadataPrefix=cdwalite&set=object&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Tue, 01 May 2012 13:40:06 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Location:
+      - http://collections.walkerart.org:8083/oai/?metadataPrefix=cdwalite&set=object&verb=ListRecords
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=iso-8859-1
+    body:
+      encoding: US-ASCII
+      string: ! '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+        <HTML><HEAD>
+
+        <TITLE>301 Moved Permanently</TITLE>
+
+        </HEAD><BODY>
+
+        <H1>Moved Permanently</H1>
+
+        The document has moved <A HREF="http://collections.walkerart.org:8083/oai/?metadataPrefix=cdwalite&amp;set=object&amp;verb=ListRecords">here</A>.<P>
+
+        <HR>
+
+        <ADDRESS>Apache/1.3.34 Server at collections.walkerart.org Port 8083</ADDRESS>
+
+        </BODY></HTML>
+
+'
+    http_version: 
+  recorded_at: Tue, 01 May 2012 13:40:06 GMT
+- request:
+    method: get
+    uri: http://collections.walkerart.org:8083/oai/?metadataPrefix=cdwalite&set=object&verb=ListRecords
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 01 May 2012 13:40:06 GMT
+      Server:
+      - Apache/1.3.34 (Unix) AxKit/1.7 mod_perl/1.29
+      Set-Cookie:
+      - AF_SID=789b5149f07b92751047d0fab1373e58; path=/
+      Last-Modified:
+      - Tue, 01 May 2012 13:40:07 GMT
+      Expires:
+      - Tue, 01 May 2012 14:40:07 GMT
+      Content-Length:
+      - '92208'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <?xml-stylesheet type="text/xsl" href="oai2.xsl"?>
+
+        <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2012-05-01T13:40:06Z</responseDate><request
+        verb="ListRecords">test</request><ListRecords><record><header><identifier>oai:walkerart.org/object/1</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>actual
+        9 x 11 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="11.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="9.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.138</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-1613</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        black ink on front lower left "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:rightsWork>&#169;
+        Dedalus Foundation/VAGA, New York, NY</cdwalite:rightsWork><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">1</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/1</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/1</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/12/wac_11517.tif</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/object/1/6215</cdwalite:resourceID><cdwalite:resourceType>Digital
+        Image</cdwalite:resourceType><cdwalite:rightsResource></cdwalite:rightsResource><cdwalite:resourceViewDescription></cdwalite:resourceViewDescription><cdwalite:resourceViewType>Front</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://collections.walkerart.org/item/text/430</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/text/430</cdwalite:resourceID><cdwalite:resourceType>text</cdwalite:resourceType><cdwalite:rightsResource>Copyright
+        2000 Walker Art Center</cdwalite:rightsResource><cdwalite:resourceViewDescription>Robert
+        Motherwell, Selections from the &lt;i>Lyric Suite&lt;/i> (1965)</cdwalite:resourceViewDescription><cdwalite:resourceViewType>object
+        label</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/2</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>actual
+        9 x 11 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="11.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="9.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.139</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-1622</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        black ink on front upper left "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">2</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/2</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/2</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/3</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>actual
+        11 x 9 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="9.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="11.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.140</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-1644</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil on front upper right "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:rightsWork>&#169;
+        Dedalus Foundation/VAGA, New York, NY</cdwalite:rightsWork><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">3</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/3</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/3</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/08/wac_7375.tif</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/object/3/4184</cdwalite:resourceID><cdwalite:resourceType>Digital
+        Image</cdwalite:resourceType><cdwalite:rightsResource>&#169; Dedalus Foundation/VAGA,
+        New York, NY</cdwalite:rightsResource><cdwalite:resourceViewDescription></cdwalite:resourceViewDescription><cdwalite:resourceViewType>Front</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://collections.walkerart.org/item/text/430</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/text/430</cdwalite:resourceID><cdwalite:resourceType>text</cdwalite:resourceType><cdwalite:rightsResource>Copyright
+        2000 Walker Art Center</cdwalite:rightsResource><cdwalite:resourceViewDescription>Robert
+        Motherwell, Selections from the &lt;i>Lyric Suite&lt;/i> (1965)</cdwalite:resourceViewDescription><cdwalite:resourceViewType>object
+        label</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/4</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>actual
+        9 x 11 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="11.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="9.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.141</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-1666</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil on front upper right "RM 65"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:rightsWork>&#169;
+        Dedalus Foundation/VAGA, New York, NY</cdwalite:rightsWork><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">4</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/4</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/4</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/08/wac_7377.tif</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/object/4/4185</cdwalite:resourceID><cdwalite:resourceType>Digital
+        Image</cdwalite:resourceType><cdwalite:rightsResource>&#169; Dedalus Foundation/VAGA,
+        New York, NY</cdwalite:rightsResource><cdwalite:resourceViewDescription></cdwalite:resourceViewDescription><cdwalite:resourceViewType>Front</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://collections.walkerart.org/item/text/430</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/text/430</cdwalite:resourceID><cdwalite:resourceType>text</cdwalite:resourceType><cdwalite:rightsResource>Copyright
+        2000 Walker Art Center</cdwalite:rightsResource><cdwalite:resourceViewDescription>Robert
+        Motherwell, Selections from the &lt;i>Lyric Suite&lt;/i> (1965)</cdwalite:resourceViewDescription><cdwalite:resourceViewType>object
+        label</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/5</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>actual
+        11 x 9 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="9.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="11.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.142</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-1731</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil on front lower left "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">5</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/5</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/5</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/6</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>actual
+        9 x 11 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="11.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="9.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.143</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-1744</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil on front lower left "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:rightsWork>&#169;
+        Dedalus Foundation/VAGA, New York, NY</cdwalite:rightsWork><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">6</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/6</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/6</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/08/wac_7379.tif</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/object/6/4186</cdwalite:resourceID><cdwalite:resourceType>Digital
+        Image</cdwalite:resourceType><cdwalite:rightsResource>&#169; Dedalus Foundation/VAGA,
+        New York, NY</cdwalite:rightsResource><cdwalite:resourceViewDescription></cdwalite:resourceViewDescription><cdwalite:resourceViewType>Front</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://collections.walkerart.org/item/text/430</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/text/430</cdwalite:resourceID><cdwalite:resourceType>text</cdwalite:resourceType><cdwalite:rightsResource>Copyright
+        2000 Walker Art Center</cdwalite:rightsResource><cdwalite:resourceViewDescription>Robert
+        Motherwell, Selections from the &lt;i>Lyric Suite&lt;/i> (1965)</cdwalite:resourceViewDescription><cdwalite:resourceViewType>object
+        label</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/7</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        11 x 9 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="9.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="11.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.144</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-179</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil on front lower left "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">7</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/7</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/7</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/8</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        11 x 9 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="9.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="11.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.145</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-1821</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil on front upper right "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:rightsWork>&#169;
+        Dedalus Foundation/VAGA, New York, NY</cdwalite:rightsWork><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">8</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/8</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/8</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/12/wac_11519.tif</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/object/8/6216</cdwalite:resourceID><cdwalite:resourceType>Digital
+        Image</cdwalite:resourceType><cdwalite:rightsResource></cdwalite:rightsResource><cdwalite:resourceViewDescription></cdwalite:resourceViewDescription><cdwalite:resourceViewType>Front</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/9</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        11 x 9 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="9.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="11.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.146</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-1837</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        black ink on front lower right on blue band of image "RM" and  in pencil on
+        front lower right "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:rightsWork>&#169;
+        Dedalus Foundation/VAGA, New York, NY</cdwalite:rightsWork><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">9</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/9</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/9</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/08/wac_7381.tif</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/object/9/4187</cdwalite:resourceID><cdwalite:resourceType>Digital
+        Image</cdwalite:resourceType><cdwalite:rightsResource>&#169; Dedalus Foundation/VAGA,
+        New York, NY</cdwalite:rightsResource><cdwalite:resourceViewDescription></cdwalite:resourceViewDescription><cdwalite:resourceViewType>Front</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://collections.walkerart.org/item/text/430</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/text/430</cdwalite:resourceID><cdwalite:resourceType>text</cdwalite:resourceType><cdwalite:rightsResource>Copyright
+        2000 Walker Art Center</cdwalite:rightsResource><cdwalite:resourceViewDescription>Robert
+        Motherwell, Selections from the &lt;i>Lyric Suite&lt;/i> (1965)</cdwalite:resourceViewDescription><cdwalite:resourceViewType>object
+        label</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/10</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        9 x 11 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="11.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="9.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.147</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-1841</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        black ink on front upper left "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:rightsWork>&#169;
+        Dedalus Foundation/VAGA, New York, NY</cdwalite:rightsWork><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">10</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/10</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/10</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/08/wac_7383.tif</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/object/10/4188</cdwalite:resourceID><cdwalite:resourceType>Digital
+        Image</cdwalite:resourceType><cdwalite:rightsResource>&#169; Dedalus Foundation/VAGA,
+        New York, NY</cdwalite:rightsResource><cdwalite:resourceViewDescription></cdwalite:resourceViewDescription><cdwalite:resourceViewType>Front</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/11</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        9 x 11 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="11.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="9.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.148</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-191</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        black ink on front upper right "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:rightsWork>&#169;
+        Dedalus Foundation/VAGA, New York, NY</cdwalite:rightsWork><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">11</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/11</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/11</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/12/wac_11521.tif</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/object/11/6217</cdwalite:resourceID><cdwalite:resourceType>Digital
+        Image</cdwalite:resourceType><cdwalite:rightsResource></cdwalite:rightsResource><cdwalite:resourceViewDescription></cdwalite:resourceViewDescription><cdwalite:resourceViewType>Front</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/12</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        9 x 11 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="11.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="9.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.149</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-192</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        black ink on front upper right "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:rightsWork>&#169;
+        Dedalus Foundation/VAGA, New York, NY</cdwalite:rightsWork><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">12</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/12</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/12</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/08/wac_7385.tif</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/object/12/4189</cdwalite:resourceID><cdwalite:resourceType>Digital
+        Image</cdwalite:resourceType><cdwalite:rightsResource>&#169; Dedalus Foundation/VAGA,
+        New York, NY</cdwalite:rightsResource><cdwalite:resourceViewDescription></cdwalite:resourceViewDescription><cdwalite:resourceViewType>Front</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/13</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        11 x 9 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="9.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="11.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.150</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-199</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        black ink on front lower right on blue band of image "RM" and  in pencil on
+        front lower right "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">13</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/13</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/13</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/14</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        11 x 9 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="9.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="11.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.151</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-2576</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil on front lower right "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">14</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/14</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/14</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/15</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Drawings</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Lyric Suite</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Robert
+        Motherwell</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Motherwell,
+        Robert</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01">American,
+        1915 - 1991</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        11 x 9 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="9.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="11.000000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>ink
+        on rice paper</cdwalite:displayMaterialsTech><cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1965</cdwalite:earliestDate><cdwalite:latestDate>1965</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.152</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Lawrence
+        Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus
+        Foundation, 1996  &#169; Dedalus Foundation, Inc.</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Drawings</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Drawings and Watercolors</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>serial
+        number D65-2591</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil on front upper right "RM"; no inscriptions on front</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:rightsWork>&#169;
+        Dedalus Foundation/VAGA, New York, NY</cdwalite:rightsWork><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">15</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/15</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/15</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/08/wac_7387.tif</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/object/15/4190</cdwalite:resourceID><cdwalite:resourceType>Digital
+        Image</cdwalite:resourceType><cdwalite:rightsResource>&#169; Dedalus Foundation/VAGA,
+        New York, NY</cdwalite:rightsResource><cdwalite:resourceViewDescription></cdwalite:resourceViewDescription><cdwalite:resourceViewType>Front</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/16</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Edition Prints/Proofs</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Prints</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Ramblas</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Helen
+        Frankenthaler</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Frankenthaler,
+        Helen</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1928-01-01" cdwalite:deathdate="2011-01-01">American,
+        1928 - 2011</cdwalite:vitalDatesCreator><cdwalite:genderCreator>female</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        34.25 x 26.75 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="26.750000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="34.250000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>lithograph
+        on paper</cdwalite:displayMaterialsTech><cdwalite:displayStateEditionWrap><cdwalite:displayEdition>51/75</cdwalite:displayEdition></cdwalite:displayStateEditionWrap><cdwalite:displayCreationDate>1987</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1987</cdwalite:earliestDate><cdwalite:latestDate>1987</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.153</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Mindy
+        and Steven Wexler, 1996</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">biomorphic abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Edition Prints/Proofs</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Prints</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>abstract
+        image on black background with red border that bleeds to edge</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil on front lower right "Frankenthaler"; in pencil on front lower left
+        "51/75"; in pencil on front lower right "''87-''88"</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">16</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/16</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/16</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/17</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Edition Prints/Proofs</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Prints</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Untitled</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Jasper
+        Johns</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Johns,
+        Jasper</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1930-01-01">American, b. 1930</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        41.375 x 53.25 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="53.250000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="41.375000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>lithograph
+        on paper</cdwalite:displayMaterialsTech><cdwalite:displayStateEditionWrap><cdwalite:displayEdition>A.P.
+        3/11 from an edition of 49</cdwalite:displayEdition></cdwalite:displayStateEditionWrap><cdwalite:displayCreationDate>1995</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1995</cdwalite:earliestDate><cdwalite:latestDate>1995</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.154</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of the artist,
+        1996</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Edition Prints/Proofs</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Prints</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>various
+        images compiled together, including image of Merce Cunningham, on dark blue-gray
+        background</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil BR "J. Johns ''95"; in pencil BL "AP 3/11"</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:rightsWork>Art
+        &#169; Jasper Johns/VAGA, New York, NY</cdwalite:rightsWork><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">17</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/17</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/17</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/04/wac_3775.tif</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/object/17/1973</cdwalite:resourceID><cdwalite:resourceType>Digital
+        Image</cdwalite:resourceType><cdwalite:rightsResource>Courtesy Walker Art
+        Center</cdwalite:rightsResource><cdwalite:resourceViewDescription></cdwalite:resourceViewDescription><cdwalite:resourceViewType>Front</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/18</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Edition Prints/Proofs</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Prints</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Ocean</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Jasper
+        Johns</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Johns,
+        Jasper</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1930-01-01">American, b. 1930</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        27.875 x 36.75 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="36.750000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="27.875000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>lithograph
+        on paper</cdwalite:displayMaterialsTech><cdwalite:displayStateEditionWrap><cdwalite:displayEdition>A.P.
+        3/20 from an edition of 54</cdwalite:displayEdition></cdwalite:displayStateEditionWrap><cdwalite:displayCreationDate>1996</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1996</cdwalite:earliestDate><cdwalite:latestDate>1996</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.155</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of the artist,
+        1996</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Edition Prints/Proofs</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Prints</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>various
+        images compiled together on blue-gray background; image bleeds into margin
+        with gray dots; deckle edge</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil BR "J. Johns 1996"; in pencil BL"AP 3/20"</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:rightsWork>Art
+        &#169; Jasper Johns/VAGA, New York, NY</cdwalite:rightsWork><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">18</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/18</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/18</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap><cdwalite:resourceWrap><cdwalite:resourceSet><cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/04/wac_3777.tif</cdwalite:linkResource><cdwalite:resourceID>oai:walkerart.org/object/18/1974</cdwalite:resourceID><cdwalite:resourceType>Digital
+        Image</cdwalite:resourceType><cdwalite:rightsResource>Courtesy Walker Art
+        Center</cdwalite:rightsResource><cdwalite:resourceViewDescription></cdwalite:resourceViewDescription><cdwalite:resourceViewType>Front</cdwalite:resourceViewType></cdwalite:resourceSet></cdwalite:resourceWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/19</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Edition Prints/Proofs</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Prints</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">American Indian Theme IV</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Roy
+        Lichtenstein</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Lichtenstein,
+        Roy</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>American</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1923-01-01">American, 1923 - 1997</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        37.25 x 36 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="36.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="37.250000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>woodcut
+        on paper</cdwalite:displayMaterialsTech><cdwalite:displayStateEditionWrap><cdwalite:displayEdition>43/50</cdwalite:displayEdition></cdwalite:displayStateEditionWrap><cdwalite:displayCreationDate>1980</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1980</cdwalite:earliestDate><cdwalite:latestDate>1980</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.156</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Mindy
+        and Steven Wexler, 1996</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Edition Prints/Proofs</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Prints</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>duplicate
+        copy (Archive copy:  84.433; duplicate copy:  84.1132);red wood grain background
+        with white cross and yellow braid</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil on front right lower "Roy Lictenstein ''80"; in pencil on front right
+        lower "43/50"</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">19</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/19</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/19</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap></cdwalite:cdwalite></metadata></record><record><header><identifier>oai:walkerart.org/object/20</identifier><datestamp>2012-01-23</datestamp><setSpec>object</setSpec></header><metadata><cdwalite:cdwalite
+        xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd"><cdwalite:objectWorkTypeWrap><cdwalite:objectWorkType
+        cdwalite:termsource="WAC">Edition Prints/Proofs</cdwalite:objectWorkType><cdwalite:objectWorkType
+        cdwalite:termsource="AMICO">Prints</cdwalite:objectWorkType></cdwalite:objectWorkTypeWrap><cdwalite:titleWrap><cdwalite:titleSet><cdwalite:title
+        cdwalite:pref="preferred">Une Saison en Enfer (A Season in Hell)</cdwalite:title></cdwalite:titleSet></cdwalite:titleWrap><cdwalite:displayCreator>Matta
+        (Roberto Antonio Sebasti&#225;n Matta Echaurren)</cdwalite:displayCreator><cdwalite:indexingCreatorWrap><cdwalite:indexingCreatorSet><cdwalite:nameCreatorSet><cdwalite:nameCreator>Matta
+        (Roberto Antonio Sebasti&#225;n Matta Echaurren)</cdwalite:nameCreator></cdwalite:nameCreatorSet><cdwalite:nationalityCreator>French</cdwalite:nationalityCreator><cdwalite:vitalDatesCreator
+        cdwalite:birthdate="1911-01-01" cdwalite:deathdate="2002-01-01">French, Chile,
+        1911 - 2002</cdwalite:vitalDatesCreator><cdwalite:genderCreator>male</cdwalite:genderCreator><cdwalite:roleCreator>artist</cdwalite:roleCreator></cdwalite:indexingCreatorSet></cdwalite:indexingCreatorWrap><cdwalite:displayMeasurements>sheet
+        26.25 x 20 inches</cdwalite:displayMeasurements><cdwalite:indexingMeasurementsWrap><cdwalite:indexingMeasurementsSet><cdwalite:measurementsSet
+        cdwalite:type="width" cdwalite:value="20.000000" cdwalite:unit="in"/><cdwalite:measurementsSet
+        cdwalite:type="height" cdwalite:value="26.250000" cdwalite:unit="in"/></cdwalite:indexingMeasurementsSet></cdwalite:indexingMeasurementsWrap><cdwalite:displayMaterialsTech>etching,
+        aquatint on paper</cdwalite:displayMaterialsTech><cdwalite:displayStateEditionWrap><cdwalite:displayEdition>35/100</cdwalite:displayEdition></cdwalite:displayStateEditionWrap><cdwalite:displayCreationDate>1987</cdwalite:displayCreationDate><cdwalite:indexingDatesWrap><cdwalite:indexingDatesSet><cdwalite:earliestDate>1987</cdwalite:earliestDate><cdwalite:latestDate>1987</cdwalite:latestDate></cdwalite:indexingDatesSet></cdwalite:indexingDatesWrap><cdwalite:locationWrap><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentRepository">Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName><cdwalite:workID
+        cdwalite:type="accession">1996.157</cdwalite:workID></cdwalite:locationSet><cdwalite:locationSet><cdwalite:locationName
+        cdwalite:type="currentCredit">Collection Walker Art Center; Gift of Mindy
+        and Steven Wexler, 1996</cdwalite:locationName></cdwalite:locationSet></cdwalite:locationWrap><cdwalite:indexingSubjectWrap><cdwalite:indexingSubjectSet><cdwalite:subjectTerm
+        cdwalite:termsource="WAC">biomorphic abstraction</cdwalite:subjectTerm></cdwalite:indexingSubjectSet></cdwalite:indexingSubjectWrap><cdwalite:classificationWrap><cdwalite:classification
+        cdwalite:termsource="WAC">Edition Prints/Proofs</cdwalite:classification><cdwalite:classification
+        cdwalite:termsource="AMICO">Prints</cdwalite:classification></cdwalite:classificationWrap><cdwalite:descriptiveNoteWrap><cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>colorful
+        abstraction with lots of imagery</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet></cdwalite:descriptiveNoteWrap><cdwalite:inscriptionsWrap><cdwalite:inscriptions>in
+        pencil BR "Matta"; in pencil BL "35/100"</cdwalite:inscriptions></cdwalite:inscriptionsWrap><cdwalite:recordWrap><cdwalite:recordID
+        cdwalite:type="object">20</cdwalite:recordID><cdwalite:recordType>item</cdwalite:recordType><cdwalite:recordSource>Walker
+        Art Center (Minneapolis, MN, USA)</cdwalite:recordSource><cdwalite:recordInfoWrap><cdwalite:recordInfoID>oai:walkerart.org:object/20</cdwalite:recordInfoID><cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/20</cdwalite:recordInfoLink></cdwalite:recordInfoWrap></cdwalite:recordWrap></cdwalite:cdwalite></metadata></record><resumptionToken
+        cursor="0">568f8c2154928a9d834682d998d7aa50</resumptionToken></ListRecords></OAI-PMH>
+
+
+'
+    http_version: 
+  recorded_at: Tue, 01 May 2012 13:40:07 GMT
 recorded_with: VCR 2.1.1

@@ -61,18 +61,39 @@ module Oaiharvest
       noko.css('record').collect do |record_element|
         rec = record.new
         rec.header = flat_elements( 'header', record_element )[0]
-        rec.metadata = get_metadata( 'metadata', @opts[:metadata_prefix], record_element )
+        rec.metadata = get_metadata( 'metadata', record_element )
         rec
       end
     end
 
-    def get_metadata element_name, prefix, document
-      debugger
-      document.css(@opts[:metadata_prefix]).children.collect do |element|
-        element.children.collect do |el| 
-           deep_elements(el.name , el)
+    # we can use 'first' here because only ONE metadata_prefix is ever returned in the body
+    def get_metadata element_name, record_element
+      metadata = {}
+      metadata_element = record_element.css('metadata').children.first
+      metadata_element.children.each do |element|
+        metadata_element.children.each do |attribute_element|
+          if record_element.css('metadata').children.first.name == 'cdwalite'
+            key,value = extract_cdwalite_info( attribute_element)
+            name = key
+            value = value
+            if name == 'record'
+              next
+            end
+          else
+            name = attribute_element.name
+            value = attribute_element.text
+          end
+          metadata[name] = value
         end
       end
+      metadata
+    end
+
+    def extract_cdwalite_info attribute_element
+      name = attribute_element.name.gsub(/Wrap$/,'')
+      value = attribute_element.children.collect(&:text)
+      value = value.length == 1 ? value[0] : value
+      [name, value]
     end
 
     def get_list_metadata_formats

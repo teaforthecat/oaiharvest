@@ -48,9 +48,12 @@ describe Oaiharvest::Client do
       listed_records = client.list_records( {:metadata_prefix => "oai_dc"} )
       listed_records[0].must_respond_to :header
       listed_records[0].must_respond_to :metadata
-      listed_records[0].header.must_include("identifier")
-      listed_records[0].metadata.must_include("identifier")
+      listed_records[0].header.must_include "identifier"
+      listed_records[0].header["identifier"].must_equal "oai:walkerart.org/object/1"
+      listed_records[0].metadata.must_include "title"
+      listed_records[0].metadata["title"].must_equal "Lyric Suite"
     end
+
 
     it "ListMetadataFormats: returns list of formats" do 
       listed_formats = client.list_metadata_formats
@@ -58,6 +61,8 @@ describe Oaiharvest::Client do
       listed_formats[0].must_be_instance_of Hash
       listed_formats[0].must_include "metadata_prefix"
       listed_formats[0]["metadata_prefix"].must_equal "oai_dc"
+      listed_formats[1]["metadata_prefix"].must_equal "qdc"
+      listed_formats[2]["metadata_prefix"].must_equal "cdwalite"
     end
 
     it "ListIdentifiers: returns headers " do 

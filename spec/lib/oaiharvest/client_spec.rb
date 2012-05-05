@@ -2,6 +2,15 @@ require_relative '../../spec_helper'
 
 describe Oaiharvest::Client do
   
+  before do
+    @options = {:base_uri => 'collections.walkerart.org:8083/oai'}
+    VCR.insert_cassette 'client', :record => :new_episodes
+  end
+  
+  after do
+    VCR.eject_cassette
+  end
+  
   it "must include httparty methods" do
     Oaiharvest::Client.must_include HTTParty
   end
@@ -11,15 +20,6 @@ describe Oaiharvest::Client do
   end 
 
   describe "verbs" do
-    
-    before do
-      @options = {:base_uri => 'collections.walkerart.org:8083/oai'}
-      VCR.insert_cassette 'client', :record => :new_episodes
-    end
-    
-    after do
-      VCR.eject_cassette
-    end
     let(:client) { Oaiharvest::Client.new @options }
 
     it "requires metadata_prefix " do 
@@ -35,25 +35,6 @@ describe Oaiharvest::Client do
       listed_records = client.list_records( {:metadata_prefix => "cdwalite"} )
       listed_records[0].must_match /.*results in an empty list.*/
     end
-
-    it "ListRecords: with cdwalite" do
-      listed_records = client.list_records( {:metadata_prefix => "cdwalite", :set => 'object'} )
-      listed_records[0].metadata["title"].must_equal("Lyric Suite")
-      # record info is to deep;
-      # this information is in the header anyway
-      listed_records[0].metadata["record"].must_be_nil
-    end
-
-    it "ListRecords: with dublin core" do 
-      listed_records = client.list_records( {:metadata_prefix => "oai_dc"} )
-      listed_records[0].must_respond_to :header
-      listed_records[0].must_respond_to :metadata
-      listed_records[0].header.must_include "identifier"
-      listed_records[0].header["identifier"].must_equal "oai:walkerart.org/object/1"
-      listed_records[0].metadata.must_include "title"
-      listed_records[0].metadata["title"].must_equal "Lyric Suite"
-    end
-
 
     it "ListMetadataFormats: returns list of formats" do 
       listed_formats = client.list_metadata_formats
@@ -92,6 +73,47 @@ describe Oaiharvest::Client do
   end
 
 
+  describe "Extracts Metadata objects" do 
+    let(:client) { Oaiharvest::Client.new @options }
+
+    it "ListRecords: with cdwalite" do
+      listed_records = client.list_records( {:metadata_prefix => "cdwalite", :set => 'object'} )
+      metadata = listed_records[0].metadata
+
+      metadata.title.must_equal(["Lyric Suite"])
+      metadata.display_creator.must_equal(["Robert Motherwell"])
+      metadata.indexing_creator.must_respond_to(:name_creator)
+      metadata.record.must_respond_to(:record_type)
+
+      metadata.object_work_type.must_be_instance_of(Array)
+      metadata.record.record_type.must_equal(["item"])
+
+      # metadata.record.must_be_kind_of(Struct)
+      # metadata.record.record_type.must_equal(["item"])
+      metadata.indexing_creator.must_be_kind_of(Struct)
+      metadata.indexing_creator.must_respond_to(:indexing_creator_set)
+      incrset = metadata.indexing_creator.indexing_creator_set
+      metadata.indexing_creator.indexing_creator_set.must_be_instance_of(Array)
+      metadata.indexing_creator.indexing_creator_set[0].must_respond_to(:name_creator)
+
+      metadata.indexing_creator.indexing_creator_set.must_respond_to(:nationality_creator)
+
+      metadata.indexing_creator.must_respond_to(:name_creator)
+
+    end
+
+    it "ListRecords: with dublin core" do 
+      listed_records = client.list_records( {:metadata_prefix => "oai_dc"} )
+      listed_records[0].must_respond_to :header
+      listed_records[0].must_respond_to :metadata
+      listed_records[0].header.must_include "identifier"
+      listed_records[0].header["identifier"].must_equal "oai:walkerart.org/object/1"
+      listed_records[0].metadata.must_include "title"
+      listed_records[0].metadata["title"].must_equal "Lyric Suite"
+    end
+
+  end
+
 
   describe "Client options" do 
     before do 
@@ -107,8 +129,8 @@ describe Oaiharvest::Client do
 
     it "base_uri setter is private" do 
       client.wont_respond_to :base_uri=
-      client.class.wont_respond_to :base_uri=
-      client.class.base_uri.must_equal 'http://collections.walkerart.org:8083/oai'
+        client.class.wont_respond_to :base_uri=
+        client.class.base_uri.must_equal 'http://collections.walkerart.org:8083/oai'
     end
 
     it "can change base_uri on the fly" do 

@@ -2,6 +2,7 @@ require 'nokogiri'
 module Oaiharvest
   class Client
     include HTTParty
+    include StringSupport
 
     attr_accessor :identified, :opts, :listed_identifiers
 

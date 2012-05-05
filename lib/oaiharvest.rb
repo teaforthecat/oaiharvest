@@ -4,10 +4,11 @@ require "httparty"
 module Oaiharvest
   module StringSupport
     def camelize(str, uppercase_first_letter = true)
+      string = str.to_s
       if uppercase_first_letter
-        str = str.sub(/^[a-z\d]*/) { $&.capitalize }
+        string = string.sub(/^[a-z\d]*/) { $&.capitalize }
       end
-      str.gsub(/(?:_|(\/))([a-z\d]*)/){ "#{$1}#{$2.capitalize}" }.gsub('/', '::')
+      string.gsub(/(?:_|(\/))([a-z\d]*)/){ "#{$1}#{$2.capitalize}" }.gsub('/', '::')
     end
 
     def underscore(str)
@@ -18,6 +19,24 @@ module Oaiharvest
       word.tr!("-", "_")
       word.downcase!
       word
+    end
+
+    def deWrap str
+      str.gsub(/Wrap$/,'')
+    end
+
+    def is_excessive element
+      element.name.match(/Wrap$|Set$/)
+    end
+  end
+
+  module HashSupport
+    def accumulate hash, key ,value
+      if hash.include?(key)
+        hash[key] << value
+      else
+        hash[key] = value
+      end
     end
   end
 end

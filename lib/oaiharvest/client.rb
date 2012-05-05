@@ -67,29 +67,32 @@ module Oaiharvest
       end
     end
 
-    # we can use 'first' here because only ONE metadata_prefix is ever returned in the body
+    def extract_cdwalite prefix_element
+      element_names = prefix_element.children.collect(&:name)
+      attributes = element_names.collect{|n| underscore(deWrap(n)).to_sym }.uniq
+      
+      cdwalite = Struct.new("Cdwalite", *attributes).new
+      cdwalite.extend(Oaiharvest::Cdwalite)
+      cdwalite.extract_objects(prefix_element)
+      cdwalite
+    end
+
     def get_metadata element_name, record_element
+      prefix_element = record_element.css('metadata').children.first
+      prefix = prefix_element.namespace.prefix
+      send( "extract_#{prefix}", prefix_element)
+    end
+
+    def extract_oai_dc prefix_element
       metadata = {}
-      metadata_element = record_element.css('metadata').children.first
-      metadata_element.children.each do |element|
-        metadata_element.children.each do |attribute_element|
-          if record_element.css('metadata').children.first.name == 'cdwalite'
-            key,value = extract_cdwalite_info( attribute_element)
-            name = key
-            value = value
-            if name == 'record'
-              next
-            end
-          else
-            name = attribute_element.name
-            value = attribute_element.text
-          end
-          metadata[name] = value
-        end
+      prefix_element.children.each do |attribute_element|
+        name = attribute_element.name
+        value = attribute_element.text
+        metadata[name] = value
       end
       metadata
     end
-
+    
     def extract_cdwalite_info attribute_element
       name = attribute_element.name.gsub(/Wrap$/,'')
       value = attribute_element.children.collect(&:text)
@@ -111,7 +114,7 @@ module Oaiharvest
       document.css(element_name).collect do |element|
         head = {}
         element.children.collect do |el| 
-          head = head.merge({el.name.underscore => el.text})
+          head = head.merge({underscore(el.name) => el.text})
         end
         head
       end
@@ -141,7 +144,7 @@ module Oaiharvest
       new_opts = @opts.merge(opts)
       new_opts.each do |k,v|
         new_opts.delete(k)
-        new_opts = new_opts.merge({ k.to_s.camelize(false) => v })
+        new_opts = new_opts.merge({ camelize(k.to_s, false) => v })
       end
       new_opts
     end
@@ -161,7 +164,7 @@ module Oaiharvest
       hash = {}
       identifiers.collect do |element_name|
         value = noko.css(element_name).children.to_s
-        hash[element_name.underscore.to_sym] = value
+        hash[underscore(element_name).to_sym] = value
       end
       hash
     end

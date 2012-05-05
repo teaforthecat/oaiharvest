@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "vcr"
   s.add_development_dependency "turn"
   s.add_development_dependency "rake"
+  s.add_development_dependency "m"
   s.add_runtime_dependency "httparty"
   s.add_runtime_dependency "nokogiri"
 

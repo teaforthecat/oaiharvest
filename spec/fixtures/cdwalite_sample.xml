@@ -1,0 +1,96 @@
+<metadata>
+    <cdwalite:cdwalite xsi:schemaLocation="http://www.getty.edu/CDWA/CDWALite/ http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd" >
+        <cdwalite:objectWorkTypeWrap>
+            <cdwalite:objectWorkType cdwalite:termsource="WAC" >Drawings</cdwalite:objectWorkType>
+            <cdwalite:objectWorkType cdwalite:termsource="AMICO" >Drawings and Watercolors</cdwalite:objectWorkType>
+        </cdwalite:objectWorkTypeWrap>
+        <cdwalite:titleWrap>
+            <cdwalite:titleSet>
+                <cdwalite:title cdwalite:pref="preferred" >Lyric Suite</cdwalite:title>
+            </cdwalite:titleSet>
+        </cdwalite:titleWrap>
+        <cdwalite:displayCreator>Robert Motherwell</cdwalite:displayCreator>
+        <cdwalite:indexingCreatorWrap>
+            <cdwalite:indexingCreatorSet>
+                <cdwalite:nameCreatorSet>
+                    <cdwalite:nameCreator>Motherwell, Robert</cdwalite:nameCreator>
+                </cdwalite:nameCreatorSet>
+                <cdwalite:nationalityCreator>American</cdwalite:nationalityCreator>
+                <cdwalite:vitalDatesCreator cdwalite:birthdate="1915-01-01" cdwalite:deathdate="1991-01-01" >American, 1915 - 1991</cdwalite:vitalDatesCreator>
+                <cdwalite:genderCreator>male</cdwalite:genderCreator>
+                <cdwalite:roleCreator>artist</cdwalite:roleCreator>
+            </cdwalite:indexingCreatorSet>
+        </cdwalite:indexingCreatorWrap>
+        <cdwalite:displayMeasurements>actual 9 x 11 inches</cdwalite:displayMeasurements>
+        <cdwalite:indexingMeasurementsWrap>
+            <cdwalite:indexingMeasurementsSet>
+                <cdwalite:measurementsSet cdwalite:type="width" cdwalite:value="11.000000" cdwalite:unit="in" ></cdwalite:measurementsSet>
+                <cdwalite:measurementsSet cdwalite:type="height" cdwalite:value="9.000000" cdwalite:unit="in" ></cdwalite:measurementsSet>
+            </cdwalite:indexingMeasurementsSet>
+        </cdwalite:indexingMeasurementsWrap>
+        <cdwalite:displayMaterialsTech>ink on rice paper</cdwalite:displayMaterialsTech>
+        <cdwalite:displayCreationDate>1965</cdwalite:displayCreationDate>
+        <cdwalite:indexingDatesWrap>
+            <cdwalite:indexingDatesSet>
+                <cdwalite:earliestDate>1965</cdwalite:earliestDate>
+                <cdwalite:latestDate>1965</cdwalite:latestDate>
+            </cdwalite:indexingDatesSet>
+        </cdwalite:indexingDatesWrap>
+        <cdwalite:locationWrap>
+            <cdwalite:locationSet>
+                <cdwalite:locationName cdwalite:type="currentRepository" >Walker Art Center (Minneapolis, MN, USA)</cdwalite:locationName>
+                <cdwalite:workID cdwalite:type="accession" >1996.138</cdwalite:workID>
+            </cdwalite:locationSet>
+            <cdwalite:locationSet>
+                <cdwalite:locationName cdwalite:type="currentCredit" >Collection Walker Art Center; Gift of Lawrence Perlman, Anita and Myron Kunin in memory of Philip Otis and Gift of the Dedalus Foundation, 1996 © Dedalus Foundation, Inc.</cdwalite:locationName>
+            </cdwalite:locationSet>
+        </cdwalite:locationWrap>
+        <cdwalite:indexingSubjectWrap>
+            <cdwalite:indexingSubjectSet>
+                <cdwalite:subjectTerm cdwalite:termsource="WAC" >abstraction</cdwalite:subjectTerm>
+            </cdwalite:indexingSubjectSet>
+        </cdwalite:indexingSubjectWrap>
+        <cdwalite:classificationWrap>
+            <cdwalite:classification cdwalite:termsource="WAC" >Drawings</cdwalite:classification>
+            <cdwalite:classification cdwalite:termsource="AMICO" >Drawings and Watercolors</cdwalite:classification>
+        </cdwalite:classificationWrap>
+        <cdwalite:descriptiveNoteWrap>
+            <cdwalite:descriptiveNoteSet>
+                <cdwalite:descriptiveNote>serial number D65-1613</cdwalite:descriptiveNote>
+            </cdwalite:descriptiveNoteSet>
+        </cdwalite:descriptiveNoteWrap>
+        <cdwalite:inscriptionsWrap>
+            <cdwalite:inscriptions>in black ink on front lower left "RM"; no inscriptions on front</cdwalite:inscriptions>
+        </cdwalite:inscriptionsWrap>
+        <cdwalite:rightsWork>© Dedalus Foundation/VAGA, New York, NY</cdwalite:rightsWork>
+        <cdwalite:recordWrap>
+            <cdwalite:recordID cdwalite:type="object" >1</cdwalite:recordID>
+            <cdwalite:recordType>item</cdwalite:recordType>
+            <cdwalite:recordSource>Walker Art Center (Minneapolis, MN, USA)</cdwalite:recordSource>
+            <cdwalite:recordInfoWrap>
+                <cdwalite:recordInfoID>oai:walkerart.org:object/1</cdwalite:recordInfoID>
+                <cdwalite:recordInfoLink>http://collections.walkerart.org/item/object/1</cdwalite:recordInfoLink>
+            </cdwalite:recordInfoWrap>
+        </cdwalite:recordWrap>
+        <cdwalite:resourceWrap>
+            <cdwalite:resourceSet>
+                <cdwalite:linkResource>http://images.artsmia.org:16080/wac/orig/12/wac_11517.tif</cdwalite:linkResource>
+                <cdwalite:resourceID>oai:walkerart.org/object/1/6215</cdwalite:resourceID>
+                <cdwalite:resourceType>Digital Image</cdwalite:resourceType>
+                <cdwalite:rightsResource></cdwalite:rightsResource>
+                <cdwalite:resourceViewDescription></cdwalite:resourceViewDescription>
+                <cdwalite:resourceViewType>Front</cdwalite:resourceViewType>
+            </cdwalite:resourceSet>
+        </cdwalite:resourceWrap>
+        <cdwalite:resourceWrap>
+            <cdwalite:resourceSet>
+                <cdwalite:linkResource>http://collections.walkerart.org/item/text/430</cdwalite:linkResource>
+                <cdwalite:resourceID>oai:walkerart.org/text/430</cdwalite:resourceID>
+                <cdwalite:resourceType>text</cdwalite:resourceType>
+                <cdwalite:rightsResource>Copyright 2000 Walker Art Center</cdwalite:rightsResource>
+                <cdwalite:resourceViewDescription>Robert Motherwell, Selections from the <i>Lyric Suite</i> (1965)</cdwalite:resourceViewDescription>
+                <cdwalite:resourceViewType>object label</cdwalite:resourceViewType>
+            </cdwalite:resourceSet>
+        </cdwalite:resourceWrap>
+    </cdwalite:cdwalite>
+</metadata>

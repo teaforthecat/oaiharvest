@@ -80,29 +80,17 @@ describe Oaiharvest::Client do
       listed_records = client.list_records( {:metadata_prefix => "cdwalite", :set => 'object'} )
       metadata = listed_records[0].metadata
 
-      metadata.title.must_equal(["Lyric Suite"])
+      metadata.title_wrap.title_set.title.must_equal(["Lyric Suite"])
       metadata.display_creator.must_equal("Robert Motherwell")
-      incrset = metadata.indexing_creator.indexing_creator_set
-      incrset.must_be_kind_of(Array)
-      incrset[0].must_respond_to(:name_creator)
-      metadata.indexing_creator.indexing_creator_set.must_be_instance_of(Array)
-      metadata.record.must_respond_to(:record_type)
 
-      metadata.object_work_type.must_be_instance_of(Array)
-      metadata.record.record_type.must_equal(["item"])
+      incrset = metadata.indexing_creator_wrap.indexing_creator_set
+      incrset.must_respond_to(:name_creator_set)
+      incrset.name_creator_set.must_respond_to(:name_creator)
+      incrset.name_creator_set.name_creator.must_equal(["Motherwell, Robert"])
+      incrset.role_creator.must_equal("artist")
 
-      # metadata.record.must_be_kind_of(Struct)
-      # metadata.record.record_type.must_equal(["item"])
-      metadata.indexing_creator.must_be_kind_of(Struct)
-      metadata.indexing_creator.must_respond_to(:indexing_creator_set)
-      incrset = metadata.indexing_creator.indexing_creator_set
-      metadata.indexing_creator.indexing_creator_set.must_be_instance_of(Array)
-      metadata.indexing_creator.indexing_creator_set[0].must_respond_to(:name_creator)
-
-      metadata.indexing_creator.indexing_creator_set.must_respond_to(:nationality_creator)
-
-      metadata.indexing_creator.must_respond_to(:name_creator)
-
+      metadata.record_wrap.must_respond_to(:record_type)
+      metadata.record_wrap.record_type.must_equal("item")
     end
 
     it "ListRecords: with dublin core" do 

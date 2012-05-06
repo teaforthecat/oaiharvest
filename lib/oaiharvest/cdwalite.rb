@@ -7,16 +7,15 @@ module Oaiharvest
     attr_accessor :excessive
 
     def to_attributes name_list
-      attributes = name_list.collect do |n| 
-        underscore(deSet(deWrap(n)))
+      name_list.uniq.collect do |n| 
+        underscore(n).to_sym
       end
-      attributes.collect(&:to_sym).uniq
     end
 
     def classify element
       name_list = element.children.collect(&:name)
       attributes = to_attributes(name_list)
-      class_name = element.name
+      class_name = camelize(element.name)
       named_object = Struct.new(class_name, *attributes).new
       named_object.extend(Cdwalite)
       named_object
@@ -24,27 +23,38 @@ module Oaiharvest
 
     def extract_child_objects element
       named_object = classify(element)
-      element.children.collect do |child|
-        child_sym = underscore(child.name).to_sym
+      unless can_be_array(element)
+        element.children.collect do |child|
+          child_sym = underscore(child.name).to_sym
           data = extract_child_objects( child )
           named_object.send("#{child_sym}=", data)
+        end
+      else
+        child_sym = underscore(element.child.name).to_sym
+        named_object.send("#{child_sym}=", element.children.collect(&:text))
       end
       named_object
     end
 
     def extract_objects prefix_element
-      named_object = classify(prefix_element)
+      first_level_object = classify(prefix_element)
       prefix_element.children.each do |element|
-        element_sym = underscore(deWrap(element.name)).to_sym
-        data = extract_child_objects(element)
-        named_object.send("#{element_sym}=", data) 
+        element_sym = underscore(element.name).to_sym
+        if can_be_array(element)
+          data = element.parent.children.collect(&:text)
+        elsif element.child && element.child.text?
+          data = element.text
+        else 
+          data = first_level_object.extract_objects(element)
+        end
+        first_level_object.send("#{element_sym}=", data) 
       end
-      named_object
+      first_level_object
     end
 
     def can_be_array element
-      child_names = element.children.collect(&:name).uniq
-      child_names.count == 1 && !is_excessive(element.child)
+      child_names = element.parent.children.collect(&:name).uniq
+      child_names.count == 1 && !is_excessive(element)
     end
   end
 end

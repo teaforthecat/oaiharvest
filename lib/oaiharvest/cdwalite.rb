@@ -2,6 +2,7 @@ module Oaiharvest
   module Cdwalite
 
     include StringSupport
+    include HashSupport
 
     attr_accessor :excessive
 
@@ -32,7 +33,8 @@ module Oaiharvest
         else
           data = child.children.collect(&:text)
           data = child.text if data.empty? && !child.text.empty?
-          named_object.send("#{child_sym}=", data)
+          # named_object.send("#{child_sym}=", data)
+          accumulate(named_object, child_sym, data)
           return  data
         end
       end

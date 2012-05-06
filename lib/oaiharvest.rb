@@ -31,11 +31,19 @@ module Oaiharvest
   end
 
   module HashSupport
-    def accumulate hash, key ,value
-      if hash.include?(key)
-        hash[key] << value
-      else
-        hash[key] = value
+    def accumulate obj, key ,value
+      if obj.class == Hash
+        if hash.include?(key)
+          hash[key] << value
+        else
+          hash[key] = value
+        end
+      elsif obj.respond_to?(key)
+        if obj.send(key).nil? || obj.send(key).empty?
+          obj.send("#{key}=", value)
+        elsif obj.send(key).class == Array
+          obj.send("#{key}") << value
+        end
       end
     end
   end

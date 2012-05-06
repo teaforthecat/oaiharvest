@@ -16,7 +16,7 @@ module Oaiharvest
     def classify element
       name_list = element.children.collect(&:name)
       attributes = to_attributes(name_list)
-      class_name = camelize(underscore(deSet(deWrap(element.name))))
+      class_name = element.name
       named_object = Struct.new(class_name, *attributes).new
       named_object.extend(Cdwalite)
       named_object
@@ -25,28 +25,11 @@ module Oaiharvest
     def extract_child_objects element
       named_object = classify(element)
       element.children.collect do |child|
-        child_sym = underscore(deSet(deWrap(child.name))).to_sym
-        debugger
-        if child.children.count > 1
+        child_sym = underscore(child.name).to_sym
           data = extract_child_objects( child )
           named_object.send("#{child_sym}=", data)
-          return data
-        elsif child.name.match(/Set$/)
-          data = extract_child_objects( child )
-          named_object.send("#{child_sym}=", data)
-          return data
-        elsif can_be_array(element)
-          data = element.children.collect(&:text)
-          data = child.text if data.empty? && !child.text.empty?
-          accumulate(named_object, child_sym, data)
-          return  data
-        else
-          data = child.children.collect(&:text)
-          data = child.text if data.empty? && !child.text.empty?
-          accumulate(named_object, child_sym, data)
-          return  data
-        end
       end
+      named_object
     end
 
     def extract_objects prefix_element

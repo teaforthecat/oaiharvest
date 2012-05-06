@@ -25,6 +25,10 @@ module Oaiharvest
       str.gsub(/Wrap$/,'')
     end
 
+    def deSet str
+      str.gsub(/Set$/,'')
+    end
+
     def is_excessive element
       element.name.match(/Wrap$|Set$/)
     end

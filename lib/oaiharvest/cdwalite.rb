@@ -22,36 +22,35 @@ module Oaiharvest
     end
 
     def extract_child_objects element
+      named_object = classify(element)
       element.children.collect do |child|
-        element_sym = underscore(deWrap(element.name)).to_sym
-        named_object = classify(element)
-        if is_excessive(element)
-          data = extract_child_objects child
+        child_sym = underscore(deWrap(child.name)).to_sym
+        if child.children.count > 1
+          data = extract_child_objects( child )
+          named_object.send("#{child_sym}=", data)
+          return data
         else
-          # data = child.children.collect(&:text)
-          data = child.text #record_id
+          data = child.children.collect(&:text)
+          data = child.text if data.empty? && !child.text.empty?
+          named_object.send("#{child_sym}=", data)
+          return  data
         end
-        debugger
-
-        data
       end
     end
 
     def extract_objects prefix_element
-      prefix_element.children.collect do |element|
+      named_object = classify(prefix_element)
+      prefix_element.children.each do |element|
         element_sym = underscore(deWrap(element.name)).to_sym
-        named_object = classify(element)
-        if can_be_array(element)
-          data = element.children.collect(&:text)
-        else
-          data = extract_child_objects(element)
-        end
-        self.send("#{element_sym}=", data) 
+        data = extract_child_objects(element)
+        named_object.send("#{element_sym}=", data) 
       end
+      named_object
     end
 
     def can_be_array element
-      element.children.collect(&:name).uniq.count == 1
+      child_names = element.children.collect(&:name).uniq
+      child_names.count == 1 && !is_excessive(element.child)
     end
   end
 end

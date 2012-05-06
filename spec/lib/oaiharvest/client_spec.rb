@@ -81,8 +81,11 @@ describe Oaiharvest::Client do
       metadata = listed_records[0].metadata
 
       metadata.title.must_equal(["Lyric Suite"])
-      metadata.display_creator.must_equal(["Robert Motherwell"])
-      metadata.indexing_creator.must_respond_to(:name_creator)
+      metadata.display_creator.must_equal("Robert Motherwell")
+      incrset = metadata.indexing_creator.indexing_creator_set
+      incrset.must_be_kind_of(Array)
+      incrset[0].must_respond_to(:name_creator)
+      metadata.indexing_creator.indexing_creator_set.must_be_instance_of(Array)
       metadata.record.must_respond_to(:record_type)
 
       metadata.object_work_type.must_be_instance_of(Array)

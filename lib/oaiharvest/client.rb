@@ -74,7 +74,6 @@ module Oaiharvest
       cdwalite = Struct.new("Cdwalite", *attributes).new
       cdwalite.extend(Oaiharvest::Cdwalite)
       cdwalite.extract_objects(prefix_element)
-      cdwalite
     end
 
     def get_metadata element_name, record_element

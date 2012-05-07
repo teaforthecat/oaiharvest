@@ -10,25 +10,44 @@ describe Oaiharvest::Client do
   after do
     VCR.eject_cassette
   end
+  after(:each) do 
+    Oaiharvest::Client.base_uri('')
+  end
   
   it "must include httparty methods" do
     Oaiharvest::Client.must_include HTTParty
   end
   
   it "starts with empty base url" do
-    Oaiharvest::Client.base_uri.must_be_nil
+    base_uri = Oaiharvest::Client.base_uri
+    if base_uri.class == String
+      base_uri.must_match(/http:\/\/$/)
+    else
+      base_uri.must_be_nil
+    end
   end 
+
+  describe "requirements" do 
+    it "should require a options" do 
+      lambda{Oaiharvest::Client.new}.must_raise(ArgumentError, 
+                                                "wrong number of arguments (0 for 1)")
+      lambda{Oaiharvest::Client.new({}) }.must_raise(RuntimeError, 
+                                                "base_uri required")
+    end
+  end
 
   describe "verbs" do
     let(:client) { Oaiharvest::Client.new @options }
 
     it "requires metadata_prefix " do 
-      lambda{client.list_records}.must_raise(RuntimeError,"metadata_prefix required")        
+      lambda{client.list_records}.must_raise(RuntimeError,
+                                             "metadata_prefix required")        
     end
 
     it "forms a valid query" do
       client.make_query.must_equal({})
-      client.make_query({:metadata_prefix=>"oai_dc"}).must_equal({'metadataPrefix' => "oai_dc"})
+      q_hash = client.make_query({:metadata_prefix=>"oai_dc"})
+      q_hash.must_equal({'metadataPrefix' => "oai_dc"})
     end
 
     it "reports an error" do 
@@ -114,14 +133,14 @@ describe Oaiharvest::Client do
 
     let(:client) { Oaiharvest::Client.new @set_options}
     
-    it "sets set" do
+    it "has accessable options" do
       client.opts[:set].must_equal 'objects'
     end
 
     it "base_uri setter is private" do 
       client.wont_respond_to :base_uri=
-        client.class.wont_respond_to :base_uri=
-        client.class.base_uri.must_equal 'http://collections.walkerart.org:8083/oai'
+      client.class.wont_respond_to :base_uri=
+      client.class.base_uri.must_equal 'http://collections.walkerart.org:8083/oai'
     end
 
     it "can change base_uri on the fly" do 
@@ -131,7 +150,22 @@ describe Oaiharvest::Client do
       client.class.base_uri.must_equal 'http://test'
       client.class.base_uri old_uri      
     end
-
   end
 
+
+  describe "handles resumption token" do 
+    let(:client) { Oaiharvest::Client.new @options }
+    it "retain resumption token that it receives" do 
+      first_records = client.list_records( {:metadata_prefix => "oai_dc"} )
+      client.resumption_token.must_equal('f6becf107efebfee0a71087c3df17f76')
+
+      other_records = client.list_records( {:metadata_prefix => "oai_dc", 
+                                           :resumption_token => client.resumption_token } )
+      
+
+      other_records = client.list_records( {:metadata_prefix => "oai_dc"} )
+      client.resumption_token.wont_equal('f6becf107efebfee0a71087c3df17f76')
+      other_records.wont_equal(first_records)
+    end
+  end
 end

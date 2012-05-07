@@ -4,26 +4,27 @@ module Oaiharvest
     include HTTParty
     include StringSupport
 
-    attr_accessor :identified, :opts, :listed_identifiers
+    attr_accessor :identified, :opts, :listed_identifiers, :resumption_token
 
 
     def initialize opts
-      unless self.class.base_uri
+      unless self.class.base_uri.empty?
         self.class.base_uri( opts.delete(:base_uri){ raise "base_uri required" } )
       end
       opts.delete(:base_uri)
-      self.opts = opts
+      @opts = opts
     end
 
     def harvest
     end
 
     def list_records opts={}
-      @opts.merge!(opts.dup)
+      opts = {'respumption_token' => @resumption_token}.merge(opts.dup)
+      @opts = @opts.merge(opts)
       unless @opts.include?(:metadata_prefix)
         raise "metadata_prefix required"
       end
-      get_list_records(opts)
+      get_list_records(@opts)
     end
 
     def list_metadata_formats
@@ -46,12 +47,17 @@ module Oaiharvest
       get_identity
     end
 
+    def get_token response
+      response.parsed_response["OAI_PMH"]["ListRecords"]["resumptionToken"]
+    end
+
     def get_list_records opts
       response = verb("ListRecords", opts)
       warning = response.parsed_response.fetch("OAI_PMH",[])
       if warning.include?('error')
         warning.fetch('error')
       else
+        @resumption_token = get_token(response)
         extract_records response.body
       end
     end
